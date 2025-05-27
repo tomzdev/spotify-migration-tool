@@ -4,6 +4,11 @@
 
 Se stai cercando un modo per aggirare la limitazione di Spotify Development Mode (25 utenti max), il self-hosting è la soluzione **più efficace e immediata**!
 
+**⚠️ CHIARIMENTO IMPORTANTE**: 
+- Devi **sempre creare un'app Spotify** - questo è obbligatorio per usare le API
+- Quello che bypassa il self-hosting è il **limite di utenti per app**
+- Invece di 1 app condivisa (25 utenti max), ogni utente ha la sua app (illimitato)
+
 ## ✅ **Perché Self-Hosting è Meglio**
 
 - 🚫 **Zero limitazioni** - nessun limite di utenti

@@ -269,9 +269,12 @@ git push heroku main
 
 **🚀 COME BYPASSARE IL LIMITE DI 25 UTENTI:**
 
+**⚠️ IMPORTANTE**: Non puoi bypassare la necessità di creare un'app Spotify - quella è sempre obbligatoria per usare le API di Spotify. Quello che puoi bypassare sono le **limitazioni degli utenti**.
+
 #### **Opzione 1: Self-Hosting (Raccomandato) 🏠**
 La soluzione più efficace è far hostare l'app direttamente agli utenti:
-- **Zero limitazioni** - ogni utente crea la propria app Spotify
+- **Ogni utente crea la propria app Spotify** (obbligatorio)
+- **Ogni istanza = 25 utenti massimo**, ma istanze illimitate
 - **Setup in 5 minuti** con la nostra guida automatica
 - **Privacy totale** - nessun dato passa attraverso server esterni
 - **Costi zero** - hosting gratuito su Vercel/Railway/Render
@@ -279,16 +282,17 @@ La soluzione più efficace è far hostare l'app direttamente agli utenti:
 👉 **[Guida Self-Hosting Completa](SELF-HOSTING.md)**
 
 #### **Opzione 2: Quota Extension Request 📋**
-Richiedi l'approvazione ufficiale a Spotify per rimuovere tutti i limiti:
-- **Accesso pubblico illimitato** una volta approvato
-- **Processo di review** può richiedere 2-8 settimane
-- **Requisiti**: Privacy Policy, Terms of Service, documentazione completa
+⚠️ **AGGIORNAMENTO 2025**: Spotify ora richiede Extended Quota Mode SOLO per aziende con 250K+ utenti
+- ❌ **Non più disponibile per individui** dal 15 maggio 2025
+- ❌ **Requisiti impossibili** per progetti personali
+- ❌ **Business registrato obbligatorio**
 
-#### **Opzione 3: Multiple Apps Strategy 🔄**
-Gestisci più app Spotify per aumentare il limite:
-- **Fino a 75-100 utenti** con 3-4 app
+#### **Opzione 2: Multiple Apps Strategy (REALISTICO) 🔄**
+Gestisci più app Spotify per la stessa istanza e aumenta il limite:
+- **75-150 utenti** con 3-6 app Spotify diverse
 - **Rotazione automatica** degli utenti tra le app
-- **Gestione complessa** ma efficace per uso medio-scale
+- **Setup complesso** ma fattibile per uso pubblico medio-scale
+- **Soluzione pratica** per un singolo sito pubblico
 
 **Strategie per Massimizzare l'Accessibilità:**
 

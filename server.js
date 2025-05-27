@@ -49,10 +49,12 @@ const authRoutes = require('./routes/auth');
 const migrationRoutes = require('./routes/migration');
 const debugRoutes = require('./routes/debug');
 const playlistTracksRoutes = require('./routes/playlist-tracks');
+const preRegistrationRoutes = require('./routes/pre-registration');
 app.use('/api/auth', authRoutes);
+app.use('/api/auth', preRegistrationRoutes);
 app.use('/api/migration', migrationRoutes);
 app.use('/api/debug', debugRoutes);
-app.use('/api/migration', playlistTracksRoutes);
+app.use('/api', playlistTracksRoutes);
 
 // Serve static assets
 // Serve files from the client/dist directory
