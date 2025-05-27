@@ -267,6 +267,29 @@ git push heroku main
 - Solo email pre-approvate possono accedere
 - Necessaria approvazione manuale per ogni utente
 
+**🚀 COME BYPASSARE IL LIMITE DI 25 UTENTI:**
+
+#### **Opzione 1: Self-Hosting (Raccomandato) 🏠**
+La soluzione più efficace è far hostare l'app direttamente agli utenti:
+- **Zero limitazioni** - ogni utente crea la propria app Spotify
+- **Setup in 5 minuti** con la nostra guida automatica
+- **Privacy totale** - nessun dato passa attraverso server esterni
+- **Costi zero** - hosting gratuito su Vercel/Railway/Render
+
+👉 **[Guida Self-Hosting Completa](SELF-HOSTING.md)**
+
+#### **Opzione 2: Quota Extension Request 📋**
+Richiedi l'approvazione ufficiale a Spotify per rimuovere tutti i limiti:
+- **Accesso pubblico illimitato** una volta approvato
+- **Processo di review** può richiedere 2-8 settimane
+- **Requisiti**: Privacy Policy, Terms of Service, documentazione completa
+
+#### **Opzione 3: Multiple Apps Strategy 🔄**
+Gestisci più app Spotify per aumentare il limite:
+- **Fino a 75-100 utenti** con 3-4 app
+- **Rotazione automatica** degli utenti tra le app
+- **Gestione complessa** ma efficace per uso medio-scale
+
 **Strategie per Massimizzare l'Accessibilità:**
 
 1. **Sistema di Richiesta Accesso** ✅ (Implementato)

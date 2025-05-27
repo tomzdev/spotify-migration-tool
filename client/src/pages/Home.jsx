@@ -87,6 +87,35 @@ const Home = ({ authStatus }) => {
           </Typography>
         </Alert>
 
+        <Alert severity="success" sx={{ my: 2, maxWidth: 800, mx: 'auto' }}>
+          <Typography variant="body1" gutterBottom>
+            <strong>💡 Bypass the 25-User Limit!</strong>
+          </Typography>
+          <Typography variant="body2">
+            Want unlimited access? <strong>Self-host your own instance</strong> in 5 minutes! 
+            No user limits, full privacy, completely free.
+          </Typography>
+          <Box sx={{ mt: 2 }}>
+            <Button 
+              variant="outlined" 
+              color="primary" 
+              href="https://github.com/tomzdev/spotify-migration-tool#-self-hosting-recommended"
+              target="_blank"
+              sx={{ mr: 2 }}
+            >
+              📖 Self-Hosting Guide
+            </Button>
+            <Button 
+              variant="contained" 
+              color="primary"
+              href="https://github.com/tomzdev/spotify-migration-tool/archive/main.zip"
+              target="_blank"
+            >
+              ⬇️ Download & Host
+            </Button>
+          </Box>
+        </Alert>
+
         <Box sx={{ mt: 4, display: 'flex', gap: 2, justifyContent: 'center', flexWrap: 'wrap' }}>
           <Button 
             variant="contained" 

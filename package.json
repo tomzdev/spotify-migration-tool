@@ -10,7 +10,8 @@
     "dev:full": "concurrently \"npm run dev\" \"npm run client\"",
     "build": "cd client && npm run build",
     "install-client": "cd client && npm install",
-    "postinstall": "npm run install-client"
+    "postinstall": "npm run install-client",
+    "setup": "node setup.js"
   },
   "keywords": [
     "spotify",

@@ -1,5 +1,17 @@
 # 🏠 Self-Hosting Guide per Spotify Migration Tool
 
+**🚀 BYPASSARE IL LIMITE DI 25 UTENTI CON SELF-HOSTING**
+
+Se stai cercando un modo per aggirare la limitazione di Spotify Development Mode (25 utenti max), il self-hosting è la soluzione **più efficace e immediata**!
+
+## ✅ **Perché Self-Hosting è Meglio**
+
+- 🚫 **Zero limitazioni** - nessun limite di utenti
+- 🔒 **Massima privacy** - i tuoi dati rimangono sul tuo server
+- 💰 **Gratuito** - hosting gratis su molte piattaforme
+- ⚡ **Setup rapido** - 5 minuti e sei online
+- 🛠️ **Personalizzabile** - modifica l'app come vuoi
+
 Se non puoi accedere alla versione hostata ufficialmente (a causa dei limiti del Development Mode di Spotify), puoi hostare la tua versione personale dell'app!
 
 ## 🎯 Vantaggi del Self-Hosting
@@ -16,6 +28,14 @@ Se non puoi accedere alla versione hostata ufficialmente (a causa dei limiti del
 - **Un servizio di hosting** (molti sono gratuiti)
 
 ## 🚀 Setup Rapido (5 minuti)
+
+### **⚡ Setup con Un Solo Comando**
+```bash
+# Download e setup automatico
+curl -L https://github.com/tomzdev/spotify-migration-tool/archive/main.zip -o spotify-migration.zip && unzip spotify-migration.zip && cd spotify-migration-tool-main && npm run setup
+```
+
+**OPPURE passo per passo:**
 
 ### 1. Clona il Repository
 ```bash
